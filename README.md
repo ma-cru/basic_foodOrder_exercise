@@ -19,3 +19,4 @@ Implements:
 - modal visibility toggling
 - fully responsive layout implementation
 - higher order functions
+- createPortal
