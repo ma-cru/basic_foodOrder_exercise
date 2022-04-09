@@ -27,13 +27,8 @@ const EinkaufswagenFenster = (props) => {
                 </div>
                 <div className={initModalVis}>
                     <Einkaufswagen
-                        /* responsiveHeight={responsiveHeight}*/
                         modalToggler={toggleAndLoad}
                         classesProp={initModalVis}
-                        /*clearOrder={clearOrder}*/
-                    /*amountTotalerTrigger={amountTotalerTrigger}*/
-                    /*orderConcluder={orderConcluder}*/
-                    /*orderObject={ctx.constBestellung}*/
                     />
                 </div>
             </div>
