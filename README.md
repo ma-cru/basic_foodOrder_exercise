@@ -14,7 +14,6 @@ Implements:
 - props.children
 - useState
 - createContext / useContext
-- RegEx pattern checker with test()
 - parent > chíld & child > parent communication
 - app-wide communication via a Context API provider element
 - modal visibility toggling
