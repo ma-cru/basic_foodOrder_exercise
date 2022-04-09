@@ -1,0 +1,57 @@
+.einkaufsWagenFenster {
+    background-color: indianred;
+    border-radius: 2px;
+    grid-column-end: initial;
+    border: 3px solid #f5f5f5f5;
+    justify-self: end;
+    width: 8em;
+    height: 4em;
+    align-self: center;
+    color: #f5f5f5f5;
+    font-weight: 500;
+}
+
+.einkaufsWagenFenster:hover{
+    cursor: pointer;
+    background-color: tan;
+}
+
+.trolleyImg {
+    vertical-align: middle;
+    float: left;
+    padding: 1.25em 0em 0em 0.7em;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+.windowHolder {
+    display: contents;
+}
+
+.orderText {
+    float: right;
+    vertical-align: middle;
+    padding: 1.4em 0.7em 0em 0em;
+}
+
+
+@media (min-width: 768px) {
+    .einkaufsWagenFenster{
+        margin: 0em 1.8em 0em 0em;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .einkaufsWagenFenster{
+        margin: 0em 1.2em 0em 0em;
+    }
+
+}
+

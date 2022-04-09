@@ -1,0 +1,9 @@
+.buttonContainer {
+    width: 95%;
+    padding: 0.6em;
+    text-align: end;
+}
+
+.submissionButtons {
+    margin: 0.6em;
+}

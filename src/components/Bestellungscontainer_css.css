@@ -1,0 +1,67 @@
+.headerSection {
+    padding: 0.2em;
+    margin: 0.2em;
+    width: 98%;
+    display: inline-grid;
+    grid-template-columns: 5% 60% 35%;
+    grid-gap: 0.5em;
+    /* margin: auto; */
+    align-items: center;
+    text-align: start;
+    color: #ac3333;
+    font-weight: 600;
+}
+
+.listSection {
+    padding: 0.2em;
+    margin: 0.4em 0.2em 0.6em 0.2em;
+    width: 95%;
+    display: inline-grid;
+    grid-template-columns: 5% 49% 20% 16%;
+    grid-gap: 0.5em;
+    /* margin: auto; */
+    align-items: center;
+    text-align: start;
+    color: #ac3333;
+    line-height: 1.5em;
+}
+
+.sectionInputs {
+    width: 2.7em;
+    border-radius: 2px;
+    border: 2px solid #bc6a6a;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.sectionInputs:focus, .sectionInputs:active, .sectionInputs:focus-visible {
+    border: 2px solid #712222;
+    outline: #712222;
+}
+
+.sectionButtons {
+    padding: 0.2em 0.15em 0.2em 0.15em;
+}
+
+.sectionButtons:hover {
+    border: 1px solid indianred;
+    background-color: indianred;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+hr {
+    width: 90%;
+    color: indianred;
+}
+
+.listeContainer {
+    display: inline-grid;
+    padding: 0.6em;
+    width: 96%;
+    margin: auto;
+}
+
+.listeContainer p, .listeContainer>hr {
+    color: #972b2b;
+}

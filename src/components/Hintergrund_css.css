@@ -1,0 +1,77 @@
+html {
+    --maxContent: max-content;
+    background-color: #292929;
+    background: scroll;
+}
+
+.backdrop {
+    background-color: #292929;
+    width: 100%;
+    height: calc(var(--maxContent) + 10px);
+}
+
+.innerBackdrop {
+    width: 100%;
+    background-color: #292929;
+    height: max-content;
+}
+
+.overlay {
+    color: #292929a8;
+    background-color: #f5f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2em;
+    font-size: large;
+    font-weight: 500;
+    place-self: center;
+    align-self: center;
+
+}
+
+.bannerImg {
+    background-image: url(/media/mdpc/21646d7f-3f27-435e-afcd-51b7f22f968a/mdpc/Dokumente/futureTraining/JS_und_React/Projekte/React_Projekte/Starter/Abs11_shoppingApp/takeaway-order-app/public/images/banner4.png);
+    background-repeat: repeat;
+    background-position: center;
+    display: inline-block;
+    width: 100%;
+    min-height: 300px;
+    display: inline-grid;
+    z-index: 4;
+    grid-template-columns: 18% 64% 18%;
+}
+
+.bestellungsContainer {
+    height: max-content;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.bannerCredits {
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.2em 0.2em 0.6em 0.2em;
+    font-size: small;
+}
+
+.bannerCredits>a {
+    color: violet;
+}
+
+@media (min-width: 768px) {
+    .bestellungsContainer {
+        width: 60%;
+    }
+
+    /* 
+    .backdrop {
+        height: 66em;
+    } */
+}
+
+@media (max-width: 768px) {
+    .bestellungsContainer {
+        width: 98%;
+    }
+}
